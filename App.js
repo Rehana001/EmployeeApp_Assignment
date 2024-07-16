@@ -21,21 +21,21 @@ const App = () => {
         component={EmployeeList} 
         options={{headerShown:false}}
         />
-        {/* <Stack.Screen
+        <Stack.Screen
          name="CreateEmployee"
           component={CreateEmployee} 
           options={{headerShown:false}}
-          /> */}
+          />
         <Stack.Screen 
         name="Profile"
          component={Profile} 
          options={{headerShown:false}}
          />
-        {/* <Stack.Screen 
+        <Stack.Screen 
         name="EditEmployee" 
         component={EditEmployee}
          options={{headerShown:false}}
-         /> */}
+         />
       </Stack.Navigator>
     </NavigationContainer>
     </ToastProvider>
